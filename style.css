@@ -1,0 +1,490 @@
+body {
+    font-family: 'Cuprum', sans-serif; /*font-family: 'Open Sans', sans-serif;*/
+    font-weight: 400;
+    background-color: #fff;
+}
+
+.layout-center {
+    width: 940px;
+    margin: 0 auto;
+}
+#header{
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Cuprum', sans-serif;
+    background-color: #f1f5f7;
+}
+#header .top-cart{
+    background-color: #293449;
+}
+#header .layout-center {
+    position: relative;
+}
+
+#header a.home {
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ee3643;
+    box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.24);
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    padding: 13px 50px 13px 50px;
+}
+#header form input {
+    float: left;
+    margin: 12px 0 0 0;
+    padding: 2px;
+    background-color: #293449;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Cuprum', sans-serif;
+  }
+input::-webkit-input-placeholder  {
+    color: white; 
+}
+input::-moz-placeholder { 
+    color: white; 
+}
+
+#header form label {
+    float: left;
+    margin: 12px 0 0 0;
+    padding: 2px;
+    width: 17px;
+    height: 17px;
+    background: url(images/icon-search.png) 0 50% no-repeat;
+    margin-right: 15px;
+    margin-left: 237px;
+}
+#header .right_block{
+    float: right;
+}
+#header .bookmart {
+    float: left;
+    display: inline-block;
+    text-decoration: none;
+    padding: 13px 0 13px 27px;
+    background: url(images/icon-bookmark.png) 0 50% no-repeat;
+    color: white;
+}
+#header .chart {
+    float: left;
+    display: inline-block;
+    text-decoration: none;
+    padding: 13px 0 13px 34px;
+    margin-left: 44px;
+    background: url(images/icon-basket.png) 0 50% no-repeat;
+    color: white;
+}
+#header .order {
+    float: left;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #63a63e;
+    padding: 13px 21px;
+    margin-left: 31px;
+    color: white;
+}
+
+/* Отделяющий блок ----------------------jkjdkfjkdjfkdjghghgh*/
+
+#header .logo .layout-center {
+    padding-top: 45px;
+    padding-bottom: 40px;
+}
+#header .logo .title-page {
+    float: left;
+    color: #ee3643;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 23px;
+    margin-right: 76px;
+}
+
+#header .logo .adress {
+    float: left;
+    width: 222px;
+    text-align: center;
+}
+
+.adress .number span[class^='skype_c2c_container'] {
+      display:none !important; /* отключение кликабельности */
+}
+ 
+.adress .number span[class^='skype_c2c_print_container'] {
+      display:inline !important; /* включение простого текста */
+}
+
+#header .logo .adress .number {
+    color: #e9292a;
+    font-size: 21px;
+    font-weight: 400;
+    padding: 12px 23px 12px 43px;
+    border: 3px solid white;
+    background: url(images/icon-phone.png)     15px 50% no-repeat;
+    margin-bottom: 10px;
+}
+#header .logo .adress .city {
+    color: #32425c;
+    font-size: 16px;
+}
+#header .logo .right-block {
+    float: right;
+    font-size: 0;
+}
+#header .logo .right-block .enter {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    padding: 14px 27px 14px 48px;
+    background: url(images/icon-login.png) 14px 50% no-repeat;
+    background-color: #fff;
+    margin-right: 10px;
+}
+#header .logo .right-block .registration {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    padding: 14px 25px;
+    background-color: #fff;
+}
+
+/* Отделяющий блок ----------------------*/
+
+#header nav  {
+    padding-bottom: 60px;
+}
+
+#header .top-menu {
+    background-image: -webkit-linear-gradient(bottom, #32425c 0%, #32425c 99%, #32425c 100%);
+    background-image: -o-linear-gradient(bottom, #32425c 0%, #32425c 99%, #32425c 100%);
+    background-image: linear-gradient(to top, #32425c 0%, #32425c 99%, #32425c 100%);
+    box-shadow: inset 0 -5px 0 #293449;
+}
+#header .top-menu li {
+    float: left;
+    margin-right: 60px;
+}
+#header .top-menu li a {
+    color: white;
+    font-size: 17px;
+    padding: 22px 0;
+}
+#header .top-menu li:first-child {
+    margin-left: 52px;
+}
+#header .top-menu li:last-child  {
+    margin-right: 0;
+}
+
+/* Отделяющий блок ----------------------*/
+/* Отделяющий блок ----------------------*/
+
+main {
+}
+
+main .benefits {
+    font-size: 0;
+    color: white;
+    font-family: 'Cuprum', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 53px;
+}
+main .benefits .new {
+    position: absolute;
+    top:0;
+    right: 0;
+    text-indent: -9999px;
+    background: url(images/new.png) 0 0 no-repeat;
+    width: 60px;
+    height: 60px;
+}
+main .benefits .benefit {
+    float: left;
+    display: inline-block;
+    padding: 23px 0 21px 25px;
+    box-sizing: border-box;
+    width: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    vertical-align: top;
+}
+main .benefits .benefit .title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+main .benefits .benefit .btn {
+    color: white;
+    padding: 13px 24px;
+    background-color: rgba(0,0,0,0.1);
+    font-size: 14px;
+    text-transform: uppercase;
+}
+main .benefits .benefit-big {
+    float: left;
+    display: inline-block;
+    background: url(images/benefit-big.jpg) 0 0 no-repeat;
+    width: 620px;
+    height: 266px;
+    box-sizing: border-box;
+    padding: 26px 0 22px 25px;
+    position: relative;
+    margin-right: 20px;
+   }
+main .benefits .benefit-big .title {
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+main .benefits .benefit-big .btn {
+    position: absolute;
+    color: white;
+    padding: 14px 47px;
+    background-color: #ee3643;
+    left: 25px;
+    bottom: 22px;
+    font-size: 14px;
+}
+main .benefits .benefit-big>p {
+    height: 16px;
+    font-size: 18px;
+}
+main .benefits .benefit-big .back {
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    margin-top: -20px;
+    width: 22px;
+    height: 40px;
+    background: url(images/icon-left.png) 0 0 no-repeat;
+}
+main .benefits .benefit-big .next {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    right: 20px;
+    width: 22px;
+    height: 40px;
+    background: url(images/icon-right.png) 0 0 no-repeat;
+}
+main .benefits .benefit1 {
+    background: #f6b22d url(images/benefit1.png) 83% 50% no-repeat;
+    position: relative;
+}
+main .benefits .benefit2 {
+    background: #4aafde url(images/benefit2.png) 85% 50% no-repeat;
+}
+main .benefits .benefit3 {
+    background: #cc79d1 url(images/benefit3.png) 83% 50% no-repeat;
+    margin-right: 0;
+}
+main .benefits .benefit5 {
+    background: #85d179 url(images/benefit5.png) 83% 50% no-repeat;
+    margin-right: 0;
+}
+main .benefits .benefit6 {
+    background: #f6b22d url(images/benefit6.png) 83% 50% no-repeat;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+main .populars .title-popular {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    padding-right: 24px;
+    background-color: #f7f3ec;
+  }
+main .populars .title-popular h3 {
+    float: left;
+    color: #32425c;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 8px;
+}
+main .populars .btn-popular {
+    float: right;
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 59px;
+    background-color: #ee3643;
+    color:white;
+    text-transform: uppercase;
+}
+main .populars .catalog-imems {
+    font-size: 0;
+    margin-top: 20px;
+}
+main .populars .catalog-item {
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    padding-bottom: 21px;
+    margin-right: 20px;
+    position: relative;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    padding-top: 5px;
+}
+main .populars .catalog-item:last-child {
+    margin-right: 0;
+}
+main .populars .catalog-item .img {
+    width: 218px;
+    height: 164px;
+    margin: 0 auto;
+    outline: 1px solid black;
+    display: block;
+    position: relative;
+}
+main .populars .catalog-item .img>img {
+    max-width: 80%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+main .populars .catalog-item .title {
+    width: 162px;
+    margin: 0 auto;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+main .populars .catalog-item .old-price {
+    margin: 0 auto;
+    text-decoration: line-through;
+    min-height: 16px;
+    color: #999;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 13px;
+}
+main .populars .catalog-item .new {
+    position: absolute;
+    top:0;
+    right: 0;
+    text-indent: -9999px;
+    background: url(images/new.png) 0 0 no-repeat;
+    width: 60px;
+    height: 60px;
+}
+main .populars .catalog-item .btn-price {
+    margin-right: 20px;
+    background-color: #ee3643;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 13px 10px 0 35px;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 42px;
+}
+main .catalog-item .btn-price:after {
+    content:"";
+    display: block;
+    position: absolute;
+    right: -40px;
+    top: 0;
+    border: 21px solid #fff;
+    border-left-color: #ee3643;
+}
+/* Отделяющий блок ----------------------*/
+/* Отделяющий блок ----------------------*/
+
+
+.service {
+    background: #f2f6f8;
+}
+.service .layout-center {
+    background: #f2f6f8 url(images/delivery.png) 100% 100% no-repeat;
+    margin-top: 85px;
+    padding-top: 68px;
+    padding-bottom: 54px;
+}
+.service .title-service {
+    color: black;
+    width: 450px;
+}
+.service .title-service h3 {
+    font-family: Cuprum;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 33px;
+
+}
+.service .title-service p {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+.service .delivery {
+    margin-top: 20px;
+}
+.service ul.menu-info {
+    float: left;
+    background: url(images/ul-shadow.png) 100% 50% no-repeat;
+    padding: 49px 0;
+}
+.service .menu-info li {
+    display: block;
+}
+.service .menu-info li a {
+    background: #32425c url(images/ul-shadow.png) 100% 50% no-repeat;
+    text-decoration: none;
+    display: block;
+    box-shadow: inset 0 -1px 0 #293449;
+    color: white;
+    font-size: 21px;
+    font-weight: 700;
+    padding: 20px 140px 20px 22px;
+}
+.service .menu-info li a.active {
+        background: white url(images/ul-shadow.png) 100% 50% no-repeat;
+    color: #32425c;
+    font-size: 21px;
+    font-weight: 700;
+    padding: 20px 140px 20px 22px;
+}
+.service .right-block {
+    width: 297px;
+    float: left;
+    margin-left: 80px;
+    padding-top: 51px;
+}
+.service .right-block h3 {
+    color: #32425c;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+.service .right-block p {
+    line-height: 24px;
+    color: black;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+
+}
